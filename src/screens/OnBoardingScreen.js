@@ -42,7 +42,7 @@ export default function OnboardingScreen() {
             image: (
               <View style={styles.lottie}>
                 <LottieView
-                  source={require("../../assets/animations/boost")}
+                  source={require("../../assets/animations/boost.json")}
                   autoPlay
                   loop
                 />
@@ -56,7 +56,7 @@ export default function OnboardingScreen() {
             image: (
               <View style={styles.lottie}>
                 <LottieView
-                  source={require("../../assets/animations/work")}
+                  source={require("../../assets/animations/work.json")}
                   autoPlay
                   loop
                 />
@@ -70,7 +70,7 @@ export default function OnboardingScreen() {
             image: (
               <View style={styles.lottie}>
                 <LottieView
-                  source={require("../../assets/animations/achieve")}
+                  source={require("../../assets/animations/achieve.json")}
                   autoPlay
                   loop
                 />
